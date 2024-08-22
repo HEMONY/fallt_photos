@@ -1,5 +1,5 @@
 pyTelegramBotAPI==4.5.1
-rembg==2.0.2
+rembg
 Pillow==9.0.1
 stability-sdk==0.1.2
 moviepy==1.0.3
