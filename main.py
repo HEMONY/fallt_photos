@@ -17,6 +17,7 @@ OWNER_ID = 588461026  # ضع هنا معرف المستخدم الخاص بك
 USERS_DATA_FILE = "users_data.json"
 
 bot = telebot.TeleBot(API_TOKEN)
+bot.set_webhook()
 stability_api = client.StabilityInference(key=STABILITY_API_KEY, verbose=True)
 
 # تحميل بيانات المستخدمين من ملف JSON
